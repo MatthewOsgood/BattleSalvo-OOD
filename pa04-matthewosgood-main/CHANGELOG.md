@@ -1,0 +1,6 @@
+- general bugfixes in Controller, AnyPlayer, and Board classes
+  - allows game to run properly and ensures no functionality needed for PA04 is broken
+- added getDirection method to Ship class
+  - made converting a Ship to a ShipAdapter simpler
+- Controller renamed to LocalGameController to allow for new Controller interface
+  - allows for proper MVC extensibility
